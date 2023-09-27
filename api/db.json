@@ -1,0 +1,81 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice",
+      "age": "28",
+      "city": "New York",
+      "email": "alice@example.com"
+    },
+    {
+      "id": 2,
+      "name": "Bob",
+      "age": "32",
+      "city": "Los Angeles",
+      "email": "bob@example.com"
+    },
+    {
+      "id": 3,
+      "name": "Charlie",
+      "age": "22",
+      "city": "Chicago",
+      "email": "charlie@example.com"
+    },
+    {
+      "id": 4,
+      "name": "Alice",
+      "age": "28",
+      "city": "New York",
+      "email": "alice@example.com"
+    },
+    {
+      "id": 5,
+      "name": "Bob",
+      "age": "32",
+      "city": "Los Angeles",
+      "email": "bob@example.com"
+    },
+    {
+      "id": 6,
+      "name": "Charlie",
+      "age": "22",
+      "city": "Chicago",
+      "email": "charlie@example.com"
+    },
+    {
+      "id": 71,
+      "name": "youssef",
+      "age": "23",
+      "city": "Aïn El Aouda",
+      "email": "rachdiy03@gmail.com"
+    },
+    {
+      "id": 8,
+      "name": "youssef rachdi",
+      "age": "24",
+      "city": "Rabat",
+      "email": "youssewac4@gmail.com"
+    },
+    {
+      "id": 9,
+      "name": "youssef rachdi",
+      "age": "24",
+      "city": "Rabat",
+      "email": "youssewac4@gmail.com"
+    },
+    {
+      "id": 10,
+      "name": "youssef rachdi",
+      "age": "24",
+      "city": "Rabat",
+      "email": "youssewac4@gmail.com"
+    },
+    {
+      "id": 11,
+      "name": "youssef rachdi",
+      "age": "24",
+      "city": "ain aouda",
+      "email": "youssewac4@gmail.com"
+    }
+  ]
+}

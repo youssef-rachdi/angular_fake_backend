@@ -1,0 +1,63 @@
+<div class="container">
+  <div class="row pt-3">
+
+    <div class="col-md-5">
+      <h3>Add user</h3>
+      <form (ngSubmit)="addUser()">
+        <div class="form-group">
+          <label>Id</label>
+          <input type="number" name="id" [(ngModel)]="user.id" class="form-control" />
+        </div>
+
+        <div class="form-group">
+          <label>Name</label>
+          <input type="text" name="name" [(ngModel)]="user.name" class="form-control" />
+        </div>
+
+        <div class="form-group">
+          <label>Age</label>
+          <input type="text" name="age" [(ngModel)]="user.age" class="form-control" />
+        </div>
+
+        <div class="form-group">
+          <label>city</label>
+          <input type="text" name="city" [(ngModel)]="user.city" class="form-control" />
+        </div>
+
+        <div class="form-group">
+          <label>email</label>
+          <input type="email" name="email" [(ngModel)]="user.email" class="form-control" />
+        </div>
+
+        <button type="submit" class="btn btn-dark">Save</button>
+
+      </form>
+    </div>
+
+    <div class="col-md-7">
+      <h3>Users</h3>
+      <table class="table table-bordered table-striped">
+        <thead>
+          <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>city</th>
+            <th>age</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr *ngFor="let user of users">
+            <td>{{user.id}}</td>
+            <td>{{user.name}}</td>
+            <td>{{user.city}}</td>
+            <td>{{user.age}}</td>
+            <td>{{user.email}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
